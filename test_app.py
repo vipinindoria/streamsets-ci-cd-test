@@ -4,7 +4,7 @@ import pytest
 def numbers():
     a=5
     b=10
-    c=50
+    c=15
     return [a,b,c]
 
 def test_mul(numbers):
