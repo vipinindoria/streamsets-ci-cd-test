@@ -7,6 +7,7 @@ def numbers():
     c=15
     return [a,b,c]
 
+@pytest.mark.xfail
 def test_mul(numbers):
     assert numbers[2] == numbers[0]*numbers[1]
 
