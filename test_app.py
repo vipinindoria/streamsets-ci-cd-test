@@ -13,4 +13,9 @@ def test_mul(numbers):
 
 def test_add(numbers):
     assert numbers[2] == numbers[0]+numbers[1]
+    
+if __name__=="__main__":
+    def check():
+        return "v" in "vipin"
+    check()
 
